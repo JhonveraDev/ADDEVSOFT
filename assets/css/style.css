@@ -20001,3 +20001,11 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+/* ----------------------------------------
+  Custom styles
+------------------------------------------- */
+.nav-item__custom-width {
+  width: 110px;
+}
