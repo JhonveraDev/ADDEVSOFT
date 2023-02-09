@@ -20017,3 +20017,17 @@ body.white-version .rn-btn-ulderline {
 .habilidades-tab__width-custom{
   width: 100%;
 }
+
+.educacion-curso {
+  position: relative;
+  z-index: 2;
+  margin-top: 50px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  background: var(--background-color-1);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  background: var(--gradient-box-w);
+  box-shadow: var(--shadow-white-3);
+  color: var(--color-body-white);
+}
