@@ -20025,9 +20025,22 @@ body.white-version .rn-btn-ulderline {
 .color-primary {
   color: var(--color-primary);
 }
+
+.display-flex {
+  display: flex;
+  align-items: center;
+}
 /* ----------------------------------------
   Generales
 ------------------------------------------- */
+.horizon-menu {
+  color: var(--color-primary);
+  font-size: var(--h4);
+  font-weight: var(--s-semi-bold);
+  letter-spacing: 7px;
+  margin-left: 10px;
+}
+
 .nav-item__custom-width {
   width: 110px;
 }
