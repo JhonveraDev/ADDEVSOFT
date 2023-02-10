@@ -20026,9 +20026,14 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-primary);
 }
 
-.display-flex {
+.display-align-items-center {
   display: flex;
   align-items: center;
+}
+
+.display-justify-content-center {
+  display: flex;
+  justify-content: center;
 }
 /* ----------------------------------------
   Generales
