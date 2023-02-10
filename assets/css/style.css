@@ -13169,6 +13169,10 @@ figcaption {
 .slide.slider-style-2 .content .inner {
   margin-bottom: 120px;
 }
+
+.slide.slider-style-2 .content .inner.margin-b-80 {
+  margin-bottom: 80px;
+}
 @media only screen and (max-width: 767px) {
   .slide.slider-style-2 .content .inner .description {
     padding-right: 0;
@@ -20010,12 +20014,22 @@ body.white-version .rn-btn-ulderline {
 /* ----------------------------------------
   Custom styles
 ------------------------------------------- */
-.nav-item__custom-width {
-  width: 110px;
+
+/* ----------------------------------------
+  Utilidades
+------------------------------------------- */
+.width-100 {
+  width: 100%;
 }
 
-.habilidades-tab__width-custom{
-  width: 100%;
+.color-primary {
+  color: var(--color-primary);
+}
+/* ----------------------------------------
+  Generales
+------------------------------------------- */
+.nav-item__custom-width {
+  width: 110px;
 }
 
 .educacion-curso {
