@@ -20046,6 +20046,23 @@ body.white-version .rn-btn-ulderline {
   margin-left: 10px;
 }
 
+.rn-left-inicio {
+  left: 0px;
+}
+.inicio-button {
+  border: 1px solid var(--color-primary) !important;
+  border-radius: 20px !important;
+  transition: background 0.5s ease;
+}
+
+.inicio-button:hover {
+  background: var(--color-primary) !important;
+}
+
+.inicio-button:hover .text{
+  color: var(--color-secondary) !important;
+}
+
 .nav-item__custom-width {
   width: 110px;
 }
