@@ -18630,6 +18630,7 @@ body.white-version .rn-btn-ulderline {
   .resume-single-list::before {
   background: var(--gradient-red-hover);
 }
+
 .white-version
   .rn-content-wrapper
   .tab-content-wrapper
@@ -18703,9 +18704,9 @@ body.white-version .rn-btn-ulderline {
   .heading
   .date-of-time
   span {
-  background: var(--color-primary);
+  background: var(--color-white);
   box-shadow: none;
-  color: var(--color-white);
+  color: var(--color-primary);
 }
 .white-version
   .rn-content-wrapper
@@ -20049,6 +20050,7 @@ body.white-version .rn-btn-ulderline {
 .rn-left-inicio {
   left: 0px;
 }
+
 .inicio-button {
   border: 1px solid var(--color-primary) !important;
   border-radius: 20px !important;
@@ -20065,6 +20067,11 @@ body.white-version .rn-btn-ulderline {
 
 .nav-item__custom-width {
   width: 110px;
+}
+
+.curso-hover:hover {
+  background: var(--color-white);
+  color: var(--color-primary);
 }
 
 .educacion-curso {
