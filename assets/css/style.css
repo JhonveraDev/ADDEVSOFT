@@ -20091,3 +20091,7 @@ body.white-version .rn-btn-ulderline {
   box-shadow: var(--shadow-white-3);
   color: var(--color-body-white);
 }
+
+.experience-list-border {
+  border: none !important;
+}
