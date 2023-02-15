@@ -20051,6 +20051,12 @@ body.white-version .rn-btn-ulderline {
   margin-left: 10px;
 }
 
+.horizon-menu-mobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .rn-left-inicio {
   left: 0px;
 }
