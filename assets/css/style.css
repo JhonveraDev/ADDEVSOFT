@@ -19610,7 +19610,7 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-body-white);
 }
 .white-version .rn-contact-area .contact-about-area .description span a {
-  color: var(--color-body-white);
+  color: var(--color-primary);
 }
 .white-version .rn-contact-area .contact-about-area .description span a:hover {
   color: var(--color-primary);
