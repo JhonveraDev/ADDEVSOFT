@@ -17311,7 +17311,7 @@ span.sr-only {
   border-radius: 10px;
   top: 0;
   left: 0;
-  background: linear-gradient(to right bottom, #212428, #16181c);
+  background: transparent;
   opacity: 0;
   z-index: -1;
 }
