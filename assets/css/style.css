@@ -19855,7 +19855,7 @@ body.white-version .rn-btn-ulderline {
   height: 50px;
   line-height: 46px;
   border-radius: 50%;
-  background-color: var(--gradient-box-w);
+  color: var(--color-white);
   text-align: center;
   z-index: 999 !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
