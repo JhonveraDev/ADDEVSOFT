@@ -11415,7 +11415,6 @@ body.template-color-1 {
 }
 .sticky .header-wrapper .logo img {
   max-width: 90%;
-  border-radius: 50%;
 }
 
 .logo a {
@@ -11423,7 +11422,6 @@ body.template-color-1 {
 }
 .logo a img {
   transition: 0.3s;
-  border-radius: 50%;
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
@@ -17426,7 +17424,6 @@ span.sr-only {
 }
 .footer-style-2 .logo-thumbnail img {
   max-width: 100%;
-  border-radius: 50%
 }
 @media only screen and (max-width: 575px) {
   .footer-style-2 .social-icone-wrapper .social-share {
