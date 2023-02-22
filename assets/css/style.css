@@ -20046,7 +20046,7 @@ body.white-version .rn-btn-ulderline {
 /* ----------------------------------------
   Generales
 ------------------------------------------- */
-.horizon-menu {
+.addevsoft-menu {
   color: var(--color-primary);
   font-size: var(--h5);
   font-weight: var(--s-semi-bold);
@@ -20054,7 +20054,7 @@ body.white-version .rn-btn-ulderline {
   margin-left: 10px;
 }
 
-.horizon-menu-mobile {
+.addevsoft-menu-mobile {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
