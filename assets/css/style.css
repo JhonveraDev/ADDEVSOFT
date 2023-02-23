@@ -11414,7 +11414,7 @@ body.template-color-1 {
   }
 }
 .sticky .header-wrapper .logo img {
-  max-width: 90%;
+  max-width: 36px;
 }
 
 .logo a {
@@ -11422,10 +11422,12 @@ body.template-color-1 {
 }
 .logo a img {
   transition: 0.3s;
+  max-width: 36px;
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
     max-height: 54px;
+    margin-left: 10px;
   }
 }
 
@@ -17423,7 +17425,7 @@ span.sr-only {
   }
 }
 .footer-style-2 .logo-thumbnail img {
-  max-width: 100%;
+  max-width: 36px;
 }
 @media only screen and (max-width: 575px) {
   .footer-style-2 .social-icone-wrapper .social-share {
