@@ -14785,7 +14785,7 @@ div#featured-project-carousel {
   background: #212427;
 }
 .personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .title h4 {
-  color: var(--color-white);
+  color: black;
 }
 .personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .date-of-time span {
   background: #1e2025;
@@ -18642,6 +18642,16 @@ body.white-version .rn-btn-ulderline {
   .tab-content-wrapper
   .tab-content
   .personal-experience-inner
+  .resume-without-hover.resume-single-list::before {
+  background: transparent;
+  color: var(--color-tertiary);
+}
+
+.white-version
+  .rn-content-wrapper
+  .tab-content-wrapper
+  .tab-content
+  .personal-experience-inner
   .resume-single-list
   .heading {
   border-bottom: 1px solid #e3e9ed;
@@ -20059,6 +20069,19 @@ body.white-version .rn-btn-ulderline {
   margin-top: 2rem;
 }
 
+.logo-custom {
+  min-width: 4rem;
+  min-height: 4rem;
+}
+
+.color-heading {
+  color: var(--color-tertiary) !important;
+}
+
+.color-heading:hover {
+  color: var(--color-tertiary) !important;
+}
+
 .rn-left-inicio {
   left: 0px;
 }
@@ -20103,3 +20126,8 @@ body.white-version .rn-btn-ulderline {
 .experience-list-border {
   border: none !important;
 }
+
+.resume-single-list:hover .heading .title h4 {
+  color: black;
+}
+
