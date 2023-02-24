@@ -18812,7 +18812,10 @@ body.white-version .rn-btn-ulderline {
 .white-version .social-share-style-1 .social-share li a::before {
   background: var(--gradient-red-hover);
 }
-.white-version .social-share-style-1 .social-share li a:hover svg {
+.white-version .social-share-style-1 .social-share li a::before {
+  background: transparent;
+}
+.white-version .social-share-style-1 .social-share .li-without-hover a:hover svg {
   color: var(--color-white);
 }
 .white-version .testimonial-style-2 .testimonial-inner {
