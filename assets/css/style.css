@@ -19133,7 +19133,7 @@ body.white-version .rn-btn-ulderline {
   box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-service::before {
-  background: var(--gradient-red-hover);
+  background: var(--gradient-box-w);
 }
 .white-version .rn-service .inner .content h4.title {
   color: var(--color-heading-wv);
@@ -19142,13 +19142,13 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-body-white);
 }
 .white-version .rn-service:hover .inner .icon svg {
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
 .white-version .rn-service:hover .inner .content h4.title {
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
 .white-version .rn-service:hover .inner .content .description {
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
 .white-version .rn-service:hover .inner .content .read-more-button i {
   color: var(--color-white);
