@@ -18926,6 +18926,11 @@ body.white-version .rn-btn-ulderline {
 .white-version .rn-about-area .contant .discription {
   color: var(--color-body-white);
 }
+
+.contant{
+cursor: auto;
+}
+
 .white-version .rn-about-area a.rn-btn {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
