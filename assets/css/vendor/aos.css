@@ -1083,7 +1083,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
 }
 [data-aos].aos-animate {
     pointer-events: auto;
-    cursor: grab;
+    cursor: auto;
 }
 [data-aos][data-aos][data-aos-easing="linear"],
 body[data-aos-easing="linear"] [data-aos] {
