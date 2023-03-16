@@ -19067,6 +19067,12 @@ cursor: auto;
   color: var(--color-body-white);
   font-weight: 600;
 }
+
+.white-version #sideNav .primary-menu .options-menu li:hover a {
+  color: white;
+  font-weight: 600;
+}
+
 .white-version .section-separator::after {
   background: #dce1e4;
 }
@@ -19143,7 +19149,7 @@ cursor: auto;
   box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-service::before {
-  background: var(--gradient-box-w);
+  background: var(--color-primary);
 }
 .white-version .rn-service .inner .content h4.title {
   color: var(--color-heading-wv);
@@ -19152,13 +19158,13 @@ cursor: auto;
   color: var(--color-body-white);
 }
 .white-version .rn-service:hover .inner .icon svg {
-  /* color: var(--color-white); */
+  color: var(--color-white);
 }
 .white-version .rn-service:hover .inner .content h4.title {
-  /* color: var(--color-white); */
+  color: var(--color-white);
 }
 .white-version .rn-service:hover .inner .content .description {
-  /* color: var(--color-white); */
+  color: var(--color-white);
 }
 .white-version .rn-service:hover .inner .content .read-more-button i {
   color: var(--color-white);
