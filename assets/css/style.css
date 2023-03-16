@@ -11249,7 +11249,6 @@ body.template-color-1 {
   #sideNav.footer_sideNav {
     height: auto;
     position: static;
-    padding-left: 10px;
   }
 }
 @media only screen and (max-width: 1199px) and (min-width: 992px) and (max-width: 1199px) {
@@ -20211,6 +20210,7 @@ cursor: auto;
   color: var(--color-primary);
   font-weight: 500;
   margin: 0;
+  padding: 0;
 }
 
 .footer__grid {
@@ -20228,6 +20228,10 @@ cursor: auto;
 
 .footer__pt {
   padding-top: 0;
+}
+
+.footer__lt {
+  padding-left: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -20253,6 +20257,12 @@ cursor: auto;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
   }
+
+  .footer__title {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
   .footer__grid-logo {
     grid-column: 1/2;
     display: grid;
