@@ -15424,6 +15424,12 @@ div#featured-project-carousel {
   width: 50px;
   border-radius: 50%;
 }
+.testimonial-style-2 .testimonial-inner .testimonial-header .ts-header.ts-pregunta {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 0;
+  font-weight: 500;
+}
 .testimonial-style-2 .testimonial-inner .testimonial-header .ts-header {
   font-size: 14px;
   margin: 0;
@@ -16988,7 +16994,7 @@ span.sr-only {
   padding: 0;
 }
 .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share {
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-right: -25px;
   margin-bottom: -8px;
 }
@@ -16999,7 +17005,7 @@ span.sr-only {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share {
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -19883,7 +19889,7 @@ cursor: auto;
   color: #5c5f62;
 }
 .white-version .single-card-sticky .card-list li::before {
-  background: #b9b9b9;
+  background: var(--color-primary);
 }
 .white-version .testimonial-style-2 .carousel .carousel-indicators li {
   box-shadow: none;
@@ -20295,4 +20301,11 @@ cursor: auto;
   .footer__title{
     padding-left: 20px;
   }
+}
+
+.caracteristicas_p {
+  font-size: 18px;
+  color: var(--color-body-white);
+  line-height: 28px;
+  margin-bottom: 20px;
 }
