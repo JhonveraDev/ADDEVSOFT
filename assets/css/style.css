@@ -18532,6 +18532,11 @@ body.white-version .mainmenu-nav .primary-menu li .submenu {
 body.white-version .mainmenu-nav .primary-menu li .submenu li a:hover {
   background: #ecf0f3;
 }
+
+body.white-version .mainmenu-nav .primary-menu li .submenu.options-menu li a:hover {
+  background: var(--color-primary);
+}
+
 body.white-version .social-share-style-1 .social-share li a.border-none :hover svg {
   color: var(--color-heading-wv);
 }
