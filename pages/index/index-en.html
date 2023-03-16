@@ -76,9 +76,6 @@
             <!-- Start Mainmanu Nav -->
             <ul class="primary-menu nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link" href="#what-we-do">What we do</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
@@ -94,7 +91,7 @@
                 <a class="nav-link smoth-animation" href="#contacts">Contact</a>
               </li>
               <li class="nav-item has-droupdown nav-item__custom-width">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#what-we-do">Services</a>
                 <ul class="submenu options-menu">
                   <li>
                     <a href="./../services-en/pagina-web-en.html">Websites</a>
@@ -168,12 +165,11 @@
       </div>
       <div class="content">
         <ul class="primary-menu nav nav-pills onepagenav">
-          <li class="nav-item"><a class="nav-link smoth-animation" href="#what-we-do">What we do</a></li>
           <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link smoth-animation" href="#technologies">Technologies</a></li>
           <li class="nav-item"><a class="nav-link smoth-animation" href="#trajectory">Trajectory</a></li>
           <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
-          <li class="has-droupdown"><a class="nav-link" href="#">Services</a>
+          <li class="has-droupdown"><a class="nav-link smoth-animation" href="#what-we-do">Services</a>
             <ul class="submenu">
               <li><a href="./../services-en/pagina-web-en.html">Websites</a></li>
               <li><a href="./../services-en/pagina-web-en.html">Virtual Shops</a></li>
@@ -183,13 +179,13 @@
               <li><a href="./../services-en/pagina-web-en.html">Community</a></li>
             </ul>
           </li>
-          <li class="has-droupdown"><a class="nav-link" href="#">About Us</a>
+          <li class="has-droupdown"><a class="nav-link smoth-animation" href="#">About Us</a>
             <ul class="submenu">
               <li><a href="./../cv/CV-Anderson-En.html" target="_blank">Anderson Vera</a></li>
               <li><a href="./../cv/CV-Duvan-En.html" target="_blank">Duván Hernández</a></li>
             </ul>
           </li>
-          <li class="has-droupdown"><a class="nav-link" href="#">Language</a>
+          <li class="has-droupdown"><a class="nav-link smoth-animation" href="#">Language</a>
             <ul class="submenu">
               <li><a href="#">English</a></li>
               <li><a href="./../../index.html">Spanish</a></li>
@@ -333,8 +329,8 @@
           <div class="col-lg-12">
             <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"
               data-aos-once="true">
-              <span class="subtitle">Our Skills</span>
-              <h2 class="title">What we do</h2>
+              <span class="subtitle">Learn more about our</span>
+              <h2 class="title">Services</h2>
             </div>
           </div>
         </div>
@@ -2064,8 +2060,8 @@
   <!-- Rn footer area Start -->
   <div id="footer" class="rn-footer-area footer-style-2 rn-section-gapTop section-separator">
     <div class="container pb--80 pb_sm--40 plr_sm--20">
-      <div class="row">
-        <div class="col-xl-3 col-12 col-lg-3 col-md-6 col-sm-6 col-12">
+      <div class="footer__grid">
+        <div class="footer__grid-logo">
           <div class="logo-thumbnail">
             <a href="#">
               <div class="display-align-items-center">
@@ -2076,59 +2072,86 @@
           </div>
           <div class="social-icone-wrapper">
             <ul class="social-share d-flex liststyle">
-              <li class="whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=573118961906&text=Hi,%20I%20would%20like%20more%20information%20about%20ADDEVSOFT%20and%20its%20business%20plans,%20please."
-                  target="_blank" title="Whatsapp">
+              <li class="linkedin" title="Whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=573118961906&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20de%20ADDEVSOFT%20y%20sus%20planes%20comerciales,%20por%20favor."
+                  target="_blank">
                   <i data-feather="phone-call"></i>
                 </a>
               </li>
-              <li class="linkedin">
-                <a href="https://www.linkedin.com/in/addevsoft/" target="_blank" title="Linkedin">
+              <li class="linkedin" title="Linkedin">
+                <a href="https://www.linkedin.com/in/addevsoft/" target="_blank">
                   <i data-feather="linkedin"></i>
                 </a>
               </li>
-              <li class="instagram">
-                <a href="https://www.instagram.com/addevsoft/" target="_blank" title="Instagram">
+              <li class="instagram" title="Instagram">
+                <a href="https://www.instagram.com/addevsoft/" target="_blank">
                   <i data-feather="instagram"></i>
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-sl-3 col-12 mt_sm--20 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="menu-wrapper">
-            <div class="menu-title">
-              <h6>SERVICES</h6>
-            </div>
-            <ul class="menu-footer">
-              <li><a href="#what-we-do">What we do</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#technologies">Technologies</a></li>
+        <div class="footer__mb footer__pt">
+          <h6 class="footer__title">PRESENTACIÓN</h6>
+          <nav id="sideNav" class="footer_sideNav footer__pt  footer__lt mainmenu-nav navbar-example2 onepagenav">
+            <ul class="primary-menu footer-menu nav nav-pills">
+              <li class="nav-item">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li class="has-droupdown footer__has-droupdown">
+                <a>Services</a>
+                <ul class="submenu options-menu">
+                  <li>
+                    <a href="./../services-en/pagina-web-en.html">Websites</a>
+                  </li>
+                  <li>
+                    <a href="./../services-en/pagina-web-en.html">Virtual Shops</a>
+                  </li>
+                  <li>
+                    <a href="./../services-en/pagina-web-en.html">Graphic design</a>
+                  </li>
+                  <li>
+                    <a href="./../services-en/pagina-web-en.html">Digital Advertising</a>
+                  </li>
+                  <li>
+                    <a href="./../services-en/pagina-web-en.html">CEO Web</a>
+                  </li>
+                  <li>
+                    <a href="./../services-en/pagina-web-en.html">Community</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
-          </div>
+          </nav>
         </div>
-        <div class="col-sl-3 col-12 mt_sm--20 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="menu-wrapper">
-            <div class="menu-title">
-              <h6>COMPANY</h6>
-            </div>
-            <ul class="menu-footer">
-              <li><a href="#trajectory">Trajectory</a></li>
-              <li><a href="#testimonial">Testimonial</a></li>
-              <li><a href="#contacts">Contact</a></li>
+        <div class="footer__mb footer__mt footer__pt">
+          <h6 class="footer__title">COMPANY</h6>
+          <nav id="sideNav" class="footer_sideNav footer__pt mainmenu-nav navbar-example2 onepagenav">
+            <ul class="primary-menu footer-menu nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#trajectory">Trajectory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contact</a></li>
+              </li>
             </ul>
-          </div>
+          </nav>
         </div>
-        <div class="col-sl-3 col-12 mt_sm--20 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="menu-wrapper">
-            <div class="menu-title">
-              <h6>Developers</h6>
-            </div>
-            <ul class="menu-footer">
-              <li><a href="./../cv/CV-Duvan-En.html" target="_blank">Duván H.</a></li>
-              <li><a href="./../cv/CV-Anderson-En.html" target="_blank">Anderson V.</a></li>
+        <div class="footer__mt footer__pt">
+          <h6 class="footer__title">Developers</h6>
+          <nav id="sideNav" class="footer_sideNav footer__pt mainmenu-nav navbar-example2 onepagenav">
+            <ul class="primary-menu footer-menu nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="./../cv/CV-Duvan-En.html" target="_blank">Duván H.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../cv/CV-Anderson-En.html" target="_blank">Anderson V.</a>
+              </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     </div>

@@ -20200,10 +20200,7 @@ cursor: auto;
   color: black;
 }
 
-.d-xl-all {
-  display: block !important;
-}
-
+/* footer */
 .footer__title {
   font-size: 18px;
   text-transform: uppercase;
@@ -20281,3 +20278,8 @@ cursor: auto;
   }
 }
 
+@media only screen and (min-width: 1600px)  {
+  .footer__title{
+    padding-left: 20px;
+  }
+}
