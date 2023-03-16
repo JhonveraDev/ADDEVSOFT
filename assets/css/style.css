@@ -13499,9 +13499,9 @@ figcaption {
   display: none;
 }
 .banner-details-wrapper-sticky .thumbnail img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  width: 480px;
+  height: 280px;
+  border-radius: 5%;
   border: 5px solid #32363b;
   box-shadow: var(--shadow-1);
   object-fit: cover;
@@ -19177,10 +19177,23 @@ cursor: auto;
   box-shadow: var(--shadow-white-3);
   background: var(--gradient-box-w);
 }
+.white-version .slide .social-share-inner-left .social-share.without-hover li a {
+  box-shadow: var(--shadow-white-3);
+  background: var(--gradient-box-w);
+}
 .white-version .slide .social-share-inner-left .social-share li a::before {
   background: var(--gradient-red-hover);
 }
+
+.white-version .slide .social-share-inner-left .social-share.without-hover li a::before {
+  background: var(--gradient-box-w);
+}
+
 .white-version .slide .social-share-inner-left .social-share li a svg {
+  color: var(--color-body-white);
+}
+
+.white-version .slide .social-share-inner-left .social-share.without-hover li a svg {
   color: var(--color-body-white);
 }
 .white-version .slide .social-share-inner-left .social-share li a:hover svg {
