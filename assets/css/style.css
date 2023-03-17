@@ -17096,6 +17096,10 @@ span.sr-only {
   line-height: 38px;
   transition: var(--transition);
 }
+
+.sticky-home-wrapper .single-card-sticky .card-list.caracteristicas_custom li {
+  color: var(--color-body-white);
+}
 .sticky-home-wrapper .single-card-sticky .card-list li::before {
   position: absolute;
   content: "";
@@ -17105,7 +17109,7 @@ span.sr-only {
   border-radius: 50%;
   top: 50%;
   left: -20px;
-  opacity: 0.3;
+  opacity: none;
   transform: translateY(-50%);
 }
 .sticky-home-wrapper .single-card-sticky .card-list li a {
