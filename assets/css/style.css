@@ -13509,7 +13509,7 @@ figcaption {
 .banner-details-wrapper-sticky .banner-title-area .title {
   color: #ffffff;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 62px;
   margin-bottom: 22px;
   font-family: var(--font-secondary);
@@ -13517,25 +13517,25 @@ figcaption {
 @media only screen and (max-width: 767px) {
   .banner-details-wrapper-sticky .banner-title-area .title {
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     line-height: 50px;
     margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 575px) {
   .banner-details-wrapper-sticky .banner-title-area .title {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 479px) {
   .banner-details-wrapper-sticky .banner-title-area .title {
-    font-size: 32px !important;
+    font-size: 30px !important;
     line-height: 40px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .banner-details-wrapper-sticky .banner-title-area .title {
-    font-size: 48px;
+    font-size: 46px;
   }
 }
 .banner-details-wrapper-sticky .banner-title-area .title .span {
@@ -20272,7 +20272,14 @@ cursor: auto;
   }
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 @media only screen and (min-width: 1200px)  {
+  .justify-center {
+    justify-content: flex-start;
+  }
   .footer__grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -20313,3 +20320,4 @@ cursor: auto;
   line-height: 28px;
   margin-bottom: 20px;
 }
+
