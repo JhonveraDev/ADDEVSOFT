@@ -51,11 +51,36 @@
   <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
 
   <!-- Start Whatsapp buttom -->
-  <a href="https://api.whatsapp.com/send?phone=573118961906&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20de%20ADDEVSOFT%20y%20sus%20planes%20comerciales,%20por%20favor."
-    class="float" target="_blank">
-    <img src="assets/images/icons/whatsapp.svg" class="wtp-button" title="whatsapp contact" alt="whatsapp contact"
-      aria-hidden="true">
-  </a>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/whatsapp-button-style.css">
+  <link rel="stylesheet" href="assets/css/whatsapp-chat-style.css">
+  <div class="nav-bottom">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <div class="popup-whatsapp fadeIn">
+      <div class="content-whatsapp -top">
+        <button type="button" class="closePopup">
+          <i class="material-icons icon-font-color">close</i>
+        </button>
+        <div class="content-chat">
+          <img src="./assets/images/logo/secretary.png" width="46">
+          <p>Hola, ¿en qué podemos ayudarte?</p>
+        </div>
+      </div>
+      <div class="content-whatsapp -bottom">
+        <input class="whats-input" id="whats-in" type="text" placeholder="Escribe tu mensaje... 🚀" />
+        <button class="send-msPopup" id="send-btn" type="button">
+          <i class="material-icons icon-font-color--black">send</i>
+        </button>
+      </div>
+    </div>
+    <button type="button" id="whats-openPopup" class="whatsapp-button">
+      <div class="float" title="Whatsapp contact">
+        <img src="assets/images/icons/whatsapp.svg" class="wtp-button" alt="Whatsapp contact" aria-hidden="true">
+      </div>
+    </button>
+    <div class="circle-anime"></div>
+  </div>
+  <script src="assets/js/whatsapp_contact_script.js"></script>
   <!-- End Whatsapp buttom -->
 
   <!-- Start Header -->

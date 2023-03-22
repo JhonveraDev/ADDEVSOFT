@@ -2,9 +2,8 @@
 	position: fixed;
 	width: 60px;
 	height: 60px;
-	bottom: 30px;
-	left: 30px;
-	background-color: var(--color-primary);
+	bottom: 15px;
+	left: 16px;
 	border-radius: 50px;
 	font-size: 30px;
 	box-shadow: 2px 2px 3px #999;
@@ -15,7 +14,7 @@
 }
 
 .wtp-button {
-	width: 32px;
+	width: 27.5px;
 	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(73deg) brightness(103%) contrast(103%);
 }
 
@@ -25,16 +24,5 @@
 }
 
 .float:hover > .wtp-button {
-	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(73deg) brightness(103%) contrast(103%);
-}
-
-@media only screen and (max-width: 450px) {
-	.float {
-		width: 50px;
-		height: 50px;
-	}
-
-	.wtp-button {
-		width: 26px;
-	}
+	filter: invert(10%) sepia(98%) saturate(4893%) hue-rotate(337deg) brightness(100%) contrast(100%);
 }
