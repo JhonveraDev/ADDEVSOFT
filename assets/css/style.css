@@ -11303,8 +11303,7 @@ body.template-color-1 {
   }
 }
 .home-sticky .rn-header.header--fixed.sticky {
-  background-color: transparent;
-  box-shadow: none;
+  background-color: #ecf0f3;
   position: fixed;
   backdrop-filter: none;
   top: 0;
@@ -11399,11 +11398,13 @@ body.template-color-1 {
 }
 
 .rn-header.header--fixed {
+  background-color: transparent;
+  border: transparent;
   position: absolute;
   top: 0;
   z-index: 999;
   width: 100%;
-  transition: 0.3s;
+  transition: .3s;
 }
 .rn-header.header--fixed.rn-d-none {
   display: none;
@@ -11413,10 +11414,8 @@ body.template-color-1 {
 }
 
 .rn-header.header--fixed.sticky {
-  background-color: rgba(33, 36, 40, 0.8705882353);
-  box-shadow: var(--shadow-1);
+  background-color: #ecf0f3;
   position: fixed;
-  backdrop-filter: blur(15px);
   top: 0;
 }
 
@@ -18577,7 +18576,6 @@ Rn Slick Dots Style
 }
 
 .box-wrapper .rn-header.header--fixed.sticky {
-  box-shadow: 0px 0px 19px 0 #1c1e22;
 }
 
 /*---------------------------
@@ -19138,7 +19136,6 @@ cursor: auto;
 }
 .white-version .rn-header.header--fixed.sticky {
   background-color: #ecf0f3;
-  box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
 }
 .white-version .rn-header .header-center .primary-menu li a {
   color: var(--color-tertiary);
