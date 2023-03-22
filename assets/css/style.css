@@ -20254,6 +20254,10 @@ cursor: auto;
   padding-left: 10px;
 }
 
+.padding-left-5 {
+  padding-left: 0;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__grid {
     grid-template-columns: repeat(3, 1fr);
@@ -20269,6 +20273,9 @@ cursor: auto;
 
   .footer__mb {
     margin-bottom: 0;
+  }
+  .padding-left-5 {
+    padding-left: 5rem;
   }
 }
 
