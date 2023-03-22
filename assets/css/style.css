@@ -20158,12 +20158,19 @@ cursor: auto;
 .addevsoft-menu-mobile {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .logo-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 4rem;
   min-height: 4rem;
+}
+
+.size-logo {
+  max-width: 3rem;
+  margin-left: 2rem;
 }
 
 .color-heading {
