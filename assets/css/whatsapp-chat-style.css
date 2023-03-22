@@ -26,8 +26,8 @@
   height: auto;
   position: fixed;
   z-index: 8;
-  bottom: 0px;
-  left: 0px;
+  bottom: 15px;
+  left: 15px;
   padding: 5px;
   margin: 0px;
 }
