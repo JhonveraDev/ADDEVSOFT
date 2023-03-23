@@ -17003,16 +17003,7 @@ span.sr-only {
     justify-content: flex-start;
   }
 }
-/* @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share {
-    justify-content: flex-start;
-  }
-}
-@media only screen and (max-width: 575px) {
-  .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share {
-    justify-content: flex-start;
-  }
-} */
+
 .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share li {
   width: 81px;
   height: 81px;
