@@ -17009,7 +17009,7 @@ span.sr-only {
 }
 @media only screen and (max-width: 575px) {
   .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share li {
@@ -20339,3 +20339,16 @@ cursor: auto;
   margin-bottom: 20px;
 }
 
+.align_title {
+  text-align: center !important;
+}
+
+.align_text {
+  text-align: left !important;
+}
+
+@media only screen and (min-width: 1200px)  {
+  .align_title {
+    text-align: left !important;
+  }
+}
