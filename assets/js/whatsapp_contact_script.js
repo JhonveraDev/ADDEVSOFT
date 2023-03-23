@@ -18,7 +18,7 @@ popupWhatsApp = () => {
   let msg = document.getElementById('whats-in').value;
   let relmsg = msg.replace(/ /g,"%20");
      
-   window.open('https://wa.me/57573118961906?text='+relmsg, '_blank'); 
+   window.open('https://wa.me/573118961906?text='+relmsg, '_blank'); 
   
   });
 
